@@ -1,4 +1,4 @@
-# Building a quiz app in React and Typescript utilising the OPEN TRIVIA API
+# Building a quiz app in React and Typescript utilising the open trivia API
 
 **_ By Thomas Weibenfalk and Free Code Camp _**
 

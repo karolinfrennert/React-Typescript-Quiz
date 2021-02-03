@@ -4,7 +4,7 @@ import { fetchQuizQuestions, Difficulty, QuestionState } from "./Api";
 //components
 import QuestionCard from "./components/QuestionCard";
 
-type AnswerObject = {
+export type AnswerObject = {
   question: string;
   answer: string;
   correct: boolean;
@@ -73,7 +73,7 @@ const App = () => {
         </button>
       ) : null}
 
-      {!gameOver ? <p className="score"> Score:</p> : null}
+      {!gameOver ? <p className="score"> Score: {score}</p> : null}
       {loading && <p>Loading Questions...</p>}
       {!loading && !gameOver && (
         <QuestionCard

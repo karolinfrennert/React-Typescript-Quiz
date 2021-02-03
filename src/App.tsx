@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {fetchQuizQuestions, Difficulty} from './Api'
+import {fetchQuizQuestions, Difficulty, Question} from './Api'
 
  
 
